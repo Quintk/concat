@@ -1,0 +1,38 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+block body
+	section.home
+		.container
+			.row
+				.col
+					.box
+						.title
+							.row
+								.col-sm-4
+									h2 Galaxy
+									h4 $2,000
+								.col-sm-8
+									a(href="#") Xem chi tiet
+						.content
+							.row
+								.col-sm-4 
+									img.img-fluid(src="./img/logo.png", alt="")
+								.col-sm-8 
+									.row
+										.col 
+											h4 Dien thoai
+											h5 giam gia
+									.row
+										.col-sm-4 
+											img.img-fluid(src="./img/logo.png", alt="")
+										.col-sm-8 
+											h5 Tang voi gia tri
+							.row.mt-4
+								.col.text-center
+									.mua
+										a(href="#") mua ngay
