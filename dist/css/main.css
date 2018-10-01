@@ -6328,23 +6328,41 @@ body {
 .box {
   background: #ffffff;
   border-radius: 5px;
-  border: 2px solid red; }
+  border: 2px solid pink; }
 
 .title {
-  background: red;
+  background: pink;
   padding: 1rem 1.5rem;
   color: white; }
   .title a {
-    color: #fff; }
+    color: #fff;
+    font-size: 25px; }
+  .title .title1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold; }
+    .title .title1 h4 {
+      color: red;
+      font-size: 30px;
+      font-weight: bolder; }
 
 .content {
-  padding: 2rem; }
+  padding: 2rem;
+  position: relative; }
   .content .mua {
-    background: red;
+    background: pink;
     border-radius: 2rem;
     padding: 1rem 2rem;
     display: inline-block;
     text-transform: uppercase;
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: red; }
+    .content .mua a {
+      color: red; }
+  .content .cnt {
+    margin-top: 5.5rem;
+    position: absolute;
+    left: 45%; }
 
 /*# sourceMappingURL=main.css.map */
