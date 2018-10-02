@@ -6322,47 +6322,54 @@ html, body {
   .container {
     width: auto; } }
 
-body {
-  background: #dfdfdf; }
-
-.box {
-  background: #ffffff;
-  border-radius: 5px;
-  border: 2px solid pink; }
-
-.title {
-  background: pink;
-  padding: 1rem 1.5rem;
-  color: white; }
-  .title a {
-    color: #fff;
-    font-size: 25px; }
-  .title .title1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold; }
-    .title .title1 h4 {
-      color: red;
-      font-size: 30px;
-      font-weight: bolder; }
-
-.content {
-  padding: 2rem;
-  position: relative; }
-  .content .mua {
-    background: pink;
-    border-radius: 2rem;
-    padding: 1rem 2rem;
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    color: red; }
-    .content .mua a {
-      color: red; }
-  .content .cnt {
-    margin-top: 5.5rem;
-    position: absolute;
-    left: 45%; }
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .home .box {
+    border-radius: 1rem;
+    border: 1px solid #ed492e;
+    max-width: 900px; }
+    .home .box .content {
+      padding: 3rem; }
+    .home .box .title {
+      border-top-left-radius: 0.8rem;
+      border-top-right-radius: 0.8rem;
+      border: 1px solid #ed492e;
+      margin: 0;
+      background: #ed492e; }
+      .home .box .title h4 {
+        font-weight: bold;
+        color: white; }
+        .home .box .title h4 a {
+          color: yellow; }
+      .home .box .title p {
+        color: yellow;
+        font-size: 2rem;
+        font-weight: bold; }
+    .home .box img {
+      margin-left: 1rem; }
+    .home .box h5 {
+      color: gray;
+      font-style: italic; }
+    .home .box .giamgia {
+      font-size: 25px; }
+    .home .box h3 {
+      color: #747070; }
+    .home .box .noidung {
+      font-size: 20px; }
+    .home .box .btn {
+      border-radius: 30px;
+      background: #ed492e !important;
+      width: 150px;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2.5rem;
+      margin-left: 6rem;
+      font-weight: bolder;
+      font-size: 20px;
+      color: white; }
 
 /*# sourceMappingURL=main.css.map */
